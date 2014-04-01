@@ -1,0 +1,16 @@
+{
+    "packages": {
+        "name": "frf/fr-navigation",
+        "version": "1.0.0",
+        "dist": {
+          "url": "https://github.com/frf/FrNavigation",
+          "type": "zip"
+},
+
+"source": {
+            "url": "https://github.com/frf/FrNavigation",
+            "type": "git",
+            "reference": ""
+        }
+    }
+}
