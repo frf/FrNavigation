@@ -12,17 +12,20 @@ FrNavigation foi criado com fins educacionais para demonstrar como navegação p
 instalação
 ============
 
-Instalação via composer é suportado, apenas certifique-se que você definiu `` ` " para a estabilidade mínima ":" dev " ```
-em seu `` ` composer.json ``` arquivo e depois disso prazo `` ` php composer.phar exigem coolcsn / CSN- navegação : dev -master ```
+Instalação via composer é suportado, apenas certifique-se que você definiu `"minimum-stability": "dev"`
+em seu arquivo `composer.json` e depois disso  `php composer.phar require frnavigation/fr-navigation:dev-master`
 
-Vá para a sua configuração do aplicativo em `. / Config / application.config.php` e adicione 'FrNavigation' .
+Vá para a sua configuração do aplicativo em `./config/application.config.php` e adicione 'FrNavigation' .
 Um exemplo de configuração de aplicativo poderia parecer com o seguinte :
 
 `
+
 'módulos' => array (
     'Application' ,
     'FrNavigation'
 )
+
+
 `
 
 configuração de navegação
