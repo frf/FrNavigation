@@ -18,15 +18,10 @@ em seu arquivo `composer.json` e depois disso  `php composer.phar require frnavi
 Vá para a sua configuração do aplicativo em `./config/application.config.php` e adicione 'FrNavigation' .
 Um exemplo de configuração de aplicativo poderia parecer com o seguinte :
 
-`
-
 'módulos' => array (
     'Application' ,
-    'FrNavigation'
+    `'FrNavigation'`
 )
-
-
-`
 
 configuração de navegação
 =============
