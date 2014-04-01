@@ -13,7 +13,7 @@ Instalação
 ============
 
 Instalação via composer é suportado, apenas certifique-se que você definiu `"minimum-stability": "dev"`
-em seu arquivo `composer.json` e depois disso  `php composer.phar require frnavigation/fr-navigation:dev-master`
+em seu arquivo `composer.json` e depois disso  `php composer.phar require frf/fr-navigation:dev-master`
 
 Vá para a sua configuração do aplicativo em `./config/application.config.php` e adicione 'FrNavigation' .
 Um exemplo de configuração de aplicativo poderia parecer com o seguinte :
@@ -26,8 +26,8 @@ Um exemplo de configuração de aplicativo poderia parecer com o seguinte :
 Configuração de navegação
 =============
 
-Copiar ` ./Vendor/frnavigation/FrNavigation/config/navigation.global.php.dist ` para
-   `./config/autoload/navigation.global.php` e editar.
+
+Usando o Linux copie: ` cp vendor/frf/fr-navigation/config/navigation.global.php.dist config/autoload/navigation.global.php`.
 
 Mostrar navegação
 =============
