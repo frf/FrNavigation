@@ -33,4 +33,4 @@ Mostrar navegação
 =============
 Adicione esta em algum lugar em seu layout `/módulo/Aplication/view/layout/layout.phtml` . :
 
-`<?php echo $ this->navegação('navegação')->menu(); ?>`
+`<?php echo $ this->navigation('navegação')->menu(); ?>`
