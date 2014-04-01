@@ -1,0 +1,27 @@
+<?php
+
+return array(
+    'navigation' => array(
+        'default' => array(
+            array(
+                'label' => 'Home',
+                'route' => 'home',
+                'controller' => 'Index',
+                'action' => 'index',
+                'resource' => 'Application\Controller\Index',
+                'privilege' => 'home',
+            ),
+            array(
+                'label' => 'Zend',
+                'uri' => 'http://framework.zend.com/',
+                'resource' => 'Zend',
+                'privilege' => 'uri'
+            ),
+        ),
+    ),
+    'service_manager' => array(
+        'factories' => array(
+            'navigation' => 'Zend\Navigation\Service\DefaultNavigationFactory',
+        ),
+    ),
+);
