@@ -9,7 +9,7 @@ FrNavigation é um módulo para navegação baseado em Zend Framework 2
 
 FrNavigation foi criado com fins educacionais para demonstrar como navegação pode ser feito. Ele é totalmente funcional.
 
-instalação
+Instalação
 ============
 
 Instalação via composer é suportado, apenas certifique-se que você definiu `"minimum-stability": "dev"`
@@ -23,7 +23,7 @@ Um exemplo de configuração de aplicativo poderia parecer com o seguinte :
     `'FrNavigation'`
 )
 
-configuração de navegação
+Configuração de navegação
 =============
 
 Copiar ` ./Vendor/frnavigation/FrNavigation/config/navigation.global.php.dist ` para
@@ -33,6 +33,4 @@ Mostrar navegação
 =============
 Adicione esta em algum lugar em seu layout `/módulo/Aplication/view/layout/layout.phtml` . :
 
-`
-<?php echo $ this->navegação('navegação')->menu(); ?>
-`
+`<?php echo $ this->navegação('navegação')->menu(); ?>`
